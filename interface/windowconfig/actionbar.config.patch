@@ -1,0 +1,185 @@
+[
+{
+  "op": "replace", 
+  "path": "/countMidAnchor", 
+  "value": [10, -9]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/pickupToActionBar/position", 
+  "value": [350, 14]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/panefeature/anchor", 
+  "value": "CenterTop"
+},
+
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar1R/position", 
+  "value": [33, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar1ROverlay/position", 
+  "value": [33, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar2R/position", 
+  "value": [76, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar2ROverlay/position", 
+  "value": [76, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar3R/position", 
+  "value": [119, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar3ROverlay/position", 
+  "value": [119, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar1L/position/1", 
+  "value": 10
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar2L/position/1", 
+  "value": 10
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar3L/position/1", 
+  "value": 10
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar4L/position", 
+  "value": [226, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar4LOverlay/position", 
+  "value": [226, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar4R/position", 
+  "value": [245, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar4ROverlay/position", 
+  "value": [245, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar5L/position", 
+  "value": [269, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar5LOverlay/position", 
+  "value": [269, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar5R/position", 
+  "value": [288, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar5ROverlay/position", 
+  "value": [288, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar6L/position", 
+  "value": [312, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar6LOverlay/position", 
+  "value": [312, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar6R/position", 
+  "value": [331, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/customBar6ROverlay/position", 
+  "value": [331, 10]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar1/position", 
+  "value": [141, 9]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar1/showBackingImageWhenFull", 
+  "value": false
+},
+{
+  "op": "add", 
+  "path": "/paneLayout/essentialBar1/showRarity", 
+  "value": false
+},
+
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar2/position", 
+  "value": [162, 9]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar2/showBackingImageWhenFull", 
+  "value": false
+},
+{
+  "op": "add", 
+  "path": "/paneLayout/essentialBar2/showRarity", 
+  "value": false
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar3/position", 
+  "value": [183, 9]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar3/showBackingImageWhenFull", 
+  "value": false
+},
+{
+  "op": "add", 
+  "path": "/paneLayout/essentialBar3/showRarity", 
+  "value": false
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar4/position", 
+  "value": [204, 9]
+},
+{
+  "op": "replace", 
+  "path": "/paneLayout/essentialBar4/showBackingImageWhenFull", 
+  "value": false
+},
+{
+  "op": "add", 
+  "path": "/paneLayout/essentialBar4/showRarity", 
+  "value": false
+}
+]                 
+ 

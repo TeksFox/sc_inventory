@@ -1,0 +1,13 @@
+
+{
+  "name": "sc_inventory",
+  "friendlyName": "[SC] Inventory",
+  "description": "Inventory redesign compatible with vanilla inventory",
+  "author": "TeksFox",
+  "version": "0.4.1 beta",
+  "link": "https://discord.gg/Pbt9AjEHvG",
+  "tags": "",
+  "includes": [],
+  "requires": [],
+  "priority": 999
+}

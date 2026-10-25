@@ -1,0 +1,274 @@
+[
+
+    //!----------------------------------------------------------------------------------
+    {
+        "op": "replace",
+        "path": "/paneLayout/portrait/position",
+        "value": [
+            83,
+            158
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/paneLayout/close",
+        "value": {
+            "type": "button",
+            "base": "/interface/close.png:1",
+            "hover": "/interface/close.png:2",
+            "pressed": "/interface/close.png:3",
+            "position": [ 263, 216 ]
+        }
+    },
+    //!----------------------------------------------------------------------------------
+    {
+        "op": "replace",
+        "path": "/paneLayout/trash/position",
+        "value": [
+            249,
+            16
+        ]
+    },
+    //!----------------------------------------------------------------------------------
+    { "op": "replace", "path": "/paneLayout/head/position", "value": [ 110, 174 ] },
+    { "op": "replace", "path": "/paneLayout/chest/position", "value": [ 110, 155 ] },
+    { "op": "replace", "path": "/paneLayout/legs/position", "value": [ 110, 136 ] },
+    { "op": "replace", "path": "/paneLayout/back/position", "value": [ 110, 117 ] },
+    //!----------------------------------------------------------------------------------
+    { "op": "replace", "path": "/paneLayout/headCosmetic/position", "value": [ 129, 174 ] }, 
+    { "op": "replace", "path": "/paneLayout/chestCosmetic/position", "value": [ 129, 155 ] }, 
+    { "op": "replace", "path": "/paneLayout/legsCosmetic/position", "value": [ 129, 136 ] }, 
+    { "op": "replace", "path": "/paneLayout/backCosmetic/position", "value": [ 129, 117 ] },
+    //!----------------------------------------------------------------------------------
+    {
+        "op": "replace",
+        "path": "/paneLayout/lblMoney/position",
+        "value": [
+            37,
+            137
+        ]
+    },
+    { "op": "add", "path": "/paneLayout/lblMoney/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/lblMoney/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/lblMoney/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/lblMoney/color", "value": "#D3D3D3" },
+
+    {
+        "op": "replace",
+        "path": "/paneLayout/lblEssence/position",
+        "value": [
+            37,
+            127
+        ]
+    },
+    { "op": "add", "path": "/paneLayout/lblEssence/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/lblEssence/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/lblEssence/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/lblEssence/color", "value": "#D3D3D3" },
+    
+    { "op": "replace", "path": "/paneLayout/imgMoneyIcon/position", "value": [ 1000, 1000 ] },
+    { "op": "replace", "path": "/paneLayout/imgEssenceIcon/position", "value": [ 1000, 1000 ] },
+    //!----------------------------------------------------------------------------------
+    {
+        "op": "replace",
+        "path": "/paneLayout/sort/position",
+        "value": [
+            261,
+            1
+        ]
+    },
+    //TEXTS-------------------------------------------------------------------------
+    { "op": "replace", "path": "/paneLayout/healthtext/position", "value": [ 37, 182 ] },
+    { "op": "replace", "path": "/paneLayout/healthtext/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/healthtext/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/healthtext/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/healthtext/color", "value": "#D3D3D3" },
+    //!----------------------------------------------------------------------------------
+
+    { "op": "replace", "path": "/paneLayout/energytext/position", "value": [ 37, 172 ] },
+    { "op": "replace", "path": "/paneLayout/energytext/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/energytext/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/energytext/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/energytext/color", "value": "#D3D3D3" },
+    //!----------------------------------------------------------------------------------
+
+    { "op": "replace", "path": "/paneLayout/defensetext/position", "value": [ 37, 162 ] },
+    { "op": "replace", "path": "/paneLayout/defensetext/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/defensetext/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/defensetext/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/defensetext/color", "value": "#D3D3D3" },
+    //!----------------------------------------------------------------------------------
+
+    { "op": "replace", "path": "/paneLayout/weapontext/position", "value": [ 37, 152 ] },
+    { "op": "replace", "path": "/paneLayout/weapontext/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/weapontext/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/weapontext/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/weapontext/color", "value": "#D3D3D3" },
+    //!----------------------------------------------------------------------------------
+    { "op": "replace", "path": "/paneLayout/labelappearance/position", "value": [ 77, 198 ] },
+    { "op": "replace", "path": "/paneLayout/labelappearance/value", "value": "Armor and character stats" },
+    { "op": "replace", "path": "/paneLayout/labelappearance/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/labelappearance/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/labelappearance/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/labelappearance/color", "value": "white" },
+
+    { "op": "remove", "path": "/paneLayout/labelstats" },
+    { "op": "replace", "path": "/paneLayout/companionName/position", "value": [ 77, 104 ] },
+    { "op": "add", "path": "/paneLayout/companionName/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/companionName/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/companionName/color", "value": "white" },
+
+    { "op": "replace", "path": "/paneLayout/labelinventory/position", "value": [ 220, 198 ] },
+    { "op": "replace", "path": "/paneLayout/labelinventory/value", "value": "Inventory" },
+    { "op": "replace", "path": "/paneLayout/labelinventory/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/labelinventory/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/labelinventory/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/labelinventory/color", "value": "white" },
+    {
+        "op": "replace",
+        "path": "/paneLayout/companionSlot",
+        "value": {
+            "type": "image",
+            "centered": true,
+            "file": "",
+            "position": [ 22, 82 ],
+            "maxSize": [ 27, 27 ],
+            "minSize": [ 20, 20 ]
+        }
+    },
+    { "op": "replace", "path": "/paneLayout/companionHealthBar/position", "value": [ 90, 91 ] },
+    {
+        "op": "add",
+        "path": "/paneLayout/companionHealtsLabel",
+        "value": {
+            "type": "label",
+            "position": [ 41, 93 ],
+            "hAnchor": "left",
+            "vAnchor": "mid",
+            "value": "Health",
+            "fontSize": 6
+        }
+    },
+    {
+        "op": "add",
+        "path": "/paneLayout/companionAttackLabel",
+        "value": {
+            "type": "label",
+            "position": [ 41, 82 ],
+            "hAnchor": "left",
+            "vAnchor": "mid",
+            "value": "Attack",
+            "fontSize": 6
+        }
+    },
+    {
+        "op": "add",
+        "path": "/paneLayout/companionDefenseLabel",
+        "value": {
+            "type": "label",
+            "position": [ 41, 71 ],
+            "hAnchor": "left",
+            "vAnchor": "mid",
+            "value": "Defense",
+            "fontSize": 6
+        }
+    },
+    
+    { "op": "replace", "path": "/paneLayout/companionAttackStat/position", "value": [ 120, 82 ] },
+    { "op": "replace", "path": "/paneLayout/companionAttackStat/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/companionAttackStat/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/companionAttackStat/fontSize", "value": 6 },
+
+
+    { "op": "replace", "path": "/paneLayout/companionDefenseStat/position", "value": [ 120, 71 ] },
+    { "op": "replace", "path": "/paneLayout/companionDefenseStat/hAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/companionDefenseStat/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/companionDefenseStat/fontSize", "value": 6 },
+
+    { "op": "replace", "path": "/paneLayout/labeltech/position", "value": [ 77, 54 ] },
+    { "op": "replace", "path": "/paneLayout/labeltech/value", "value": "Available techs" },
+    { "op": "add", "path": "/paneLayout/labeltech/vAnchor", "value": "mid" },
+    { "op": "add", "path": "/paneLayout/labeltech/fontSize", "value": 6 },
+    { "op": "add", "path": "/paneLayout/labeltech/color", "value": "white" },
+
+    { "op": "replace", "path": "/paneLayout/techHead/position", "value": [ 32, 35 ] },
+    { "op": "replace", "path": "/paneLayout/techHeadDisabled/position", "value": [ 32, 35 ] },
+    { "op": "replace", "path": "/paneLayout/techBody/position", "value": [ 77, 35 ] },
+    { "op": "replace", "path": "/paneLayout/techBodyDisabled/position", "value": [ 77, 35 ] },
+    { "op": "replace", "path": "/paneLayout/techLegs/position", "value": [ 122, 35 ] },
+    { "op": "replace", "path": "/paneLayout/techLegsDisabled/position", "value": [ 122, 35 ] },
+    //Vaniliadots   
+    { "op": "replace", "path": "/paneLayout/newGeneralItems/position", "value": [ 154, 195 ] },
+    { "op": "replace", "path": "/paneLayout/newTileItems/position", "value": [ 154, 160 ] },
+    { "op": "replace", "path": "/paneLayout/newObjectItems/position", "value": [ 154, 126 ] },
+    { "op": "replace", "path": "/paneLayout/newReagentItems/position", "value": [ 154, 92 ] },
+    { "op": "replace", "path": "/paneLayout/newFoodItems/position", "value": [ 154, 58 ] },
+
+    { "op": "replace", "path": "/paneLayout/gridModeSelector/position", "value": [ 152, 203 ] },
+    {
+        "op": "replace",
+        "path": "/paneLayout/gridModeSelector/buttons",
+        "value": [
+            {
+                "id": 0,
+                "baseImage": "/interface/inventory/tabs.png:main.1",
+                "baseImageChecked": "/interface/inventory/tabs.png:main.2",
+                "position": [ 0, -32 ],
+                "data": "showMainGrid",
+                "selected": true,
+                "pressedOffset": [ 0, 0 ]
+            },
+            {
+                "baseImage": "/interface/inventory/tabs.png:material.1",
+                "baseImageChecked": "/interface/inventory/tabs.png:material.2",
+                "position": [ 0, -66 ],
+                "data": "showTileGrid",
+                "pressedOffset": [ 0, 0 ]
+            },
+            {
+                "baseImage": "/interface/inventory/tabs.png:objects.1",
+                "baseImageChecked": "/interface/inventory/tabs.png:objects.2",
+                "position": [ 0, -100 ],
+                "data": "showObjectGrid",
+                "pressedOffset": [ 0, 0 ]
+            },
+            {
+                "baseImage": "/interface/inventory/tabs.png:reagent.1",
+                "baseImageChecked": "/interface/inventory/tabs.png:reagent.2",
+                "position": [ 0, -134 ],
+                "data": "showReagentGrid",
+                "pressedOffset": [ 0, 0 ]
+            },
+            {
+                "baseImage": "/interface/inventory/tabs.png:food.1",
+                "baseImageChecked": "/interface/inventory/tabs.png:food.2",
+                "position": [ 0, -168 ],
+                "data": "showFoodGrid",
+                "pressedOffset": [ 0, 0 ]
+            }
+        ]
+    },
+    { "op": "replace", "path": "/paneLayout/mainItemGrid/position", "value": [ 176, 41 ] },
+    { "op": "replace", "path": "/paneLayout/mainItemGrid/dimensions", "value": [ 5, 8 ] },
+    
+    { "op": "replace", "path": "/paneLayout/tileItemGrid/position", "value": [ 176, 41 ] },
+    { "op": "replace", "path": "/paneLayout/tileItemGrid/dimensions", "value": [ 5, 8 ] },
+    
+    { "op": "replace", "path": "/paneLayout/objectItemGrid/position", "value": [ 176, 41 ] },
+    { "op": "replace", "path": "/paneLayout/objectItemGrid/dimensions", "value": [ 5, 8 ] },
+    
+    { "op": "replace", "path": "/paneLayout/reagentItemGrid/position", "value": [ 176, 41 ] },
+    { "op": "replace", "path": "/paneLayout/reagentItemGrid/dimensions", "value": [ 5, 8 ] },
+    
+    { "op": "replace", "path": "/paneLayout/foodItemGrid/position", "value": [ 176, 41 ] },
+    { "op": "replace", "path": "/paneLayout/foodItemGrid/dimensions", "value": [ 5, 8 ] }
+    
+    //--
+    // { "op": "remove", "path": "/paneLayout/tileItemGrid" },
+    // { "op": "remove", "path": "/paneLayout/objectItemGrid" },
+    // { "op": "remove", "path": "/paneLayout/reagentItemGrid" },
+    // { "op": "remove", "path": "/paneLayout/foodItemGrid" }
+
+
+
+]
